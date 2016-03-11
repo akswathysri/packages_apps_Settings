@@ -32,6 +32,18 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
+        <!-- Developer -->
+        <Preference android:key="dev_title"
+                android:title="@string/dev_title" 
+                style="?android:preferenceInformationStyle" 
+                android:summary="@string/dev_name"/>
+
+        <!-- Developer -->
+        <Preference android:key="co_dev_title"
+                android:title="@string/co_dev_title" 
+                style="?android:preferenceInformationStyle" 
+                android:summary="@string/co_dev_name"/>
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
@@ -40,12 +52,6 @@
                     android:targetPackage="com.android.settings"
                     android:targetClass="com.android.settings.deviceinfo.Status" />
         </PreferenceScreen>
-
-        <!-- Developer -->
-        <Preference android:key="dev_title"
-                android:title="@string/dev_title" 
-                style="?android:preferenceInformationStyle" 
-                android:summary="@string/dev_name"/>
 
         <!-- Manual -->
         <PreferenceScreen

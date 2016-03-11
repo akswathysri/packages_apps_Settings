@@ -25,6 +25,10 @@
 
     <!-- Developer -->
     <string name="dev_title">Developer</string> 
-    <string name="dev_name">Vibhor Chaudhary (vibhu0009)</string>
+    <string name="dev_name">Vibhor Chaudhary</string>
+
+    <!-- Developer -->
+    <string name="co_dev_title">Co-Developer</string>
+    <string name="co_dev_name">Swathy Sri</string>
 
 </resources>
