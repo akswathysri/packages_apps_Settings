@@ -26,13 +26,12 @@
             <intent android:action="android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
         </PreferenceScreen>
 
-        <!-- Hide
         <SwitchPreference
                 android:key="auto_brightness"
                 android:title="@string/auto_brightness_title"
                 settings:keywords="@string/keywords_display_auto_brightness"
                 android:summary="@string/auto_brightness_summary"
-                android:persistent="false" /> -->
+                android:persistent="false" />
 
         <!-- Hide night mode for now
         <ListPreference
