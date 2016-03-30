@@ -65,7 +65,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String TAG = "DisplaySettings";
 
     /** If there is no setting in the provider, use this. */
-    private static final int FALLBACK_SCREEN_TIMEOUT_VALUE = 30000;
+    private static final int FALLBACK_SCREEN_TIMEOUT_VALUE = 120000;
 
     private static final String KEY_SCREEN_TIMEOUT = "screen_timeout";
     private static final String KEY_FONT_SIZE = "font_size";
