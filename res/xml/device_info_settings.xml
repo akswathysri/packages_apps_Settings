@@ -17,6 +17,18 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+        <!-- Developer -->
+        <Preference android:key="dev_title"
+                android:title="@string/dev_title" 
+                style="?android:preferenceInformationStyle" 
+                android:summary="@string/dev_name"/>
+
+        <!-- Developer -->
+        <Preference android:key="co_dev_title"
+                android:title="@string/co_dev_title" 
+                style="?android:preferenceInformationStyle" 
+                android:summary="@string/co_dev_name"/>
+
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
                 android:title="@string/system_update_settings_list_item_title" 
